@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
   s.add_dependency             'mime-types', '~> 1'
 
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec',      '~> 2'
+  s.add_development_dependency 'rspec',                     '~> 2'
+  s.add_development_dependency 'codeclimate-test-reporter', '~> 0'
 
   s.rubyforge_project = 'htty'
   s.has_rdoc          = true
